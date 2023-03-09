@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProcessList id="1" compCLFversion="3.0">
+<ProcessList xmlns="urn:AMPAS:clf:v3.0" id="1" compCLFversion="3.0">
    <Description>Missing Sat defaults to 1</Description>
    <ASC_CDL inBitDepth="32f" outBitDepth="16f" style="Fwd">
       <Description>ASC CDL operation</Description>

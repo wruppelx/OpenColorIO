@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProcessList compCLFversion="3" id="id">
+<ProcessList xmlns="urn:AMPAS:clf:v3.0" compCLFversion="3" id="id">
     <Description>Very long Lut1D test (x^2.2 * 1.3 - 0.007)</Description>
     <Description>Also demonstrates repeating quantized values</Description>
     <LUT1D inBitDepth="32f" outBitDepth="16f">

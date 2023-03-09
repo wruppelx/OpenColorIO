@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProcessList id="9843a859-e41e-40a8-a51c-840889c3774e" compCLFversion="3.0">
+<ProcessList xmlns="urn:AMPAS:clf:v3.0" id="9843a859-e41e-40a8-a51c-840889c3774e" compCLFversion="3.0">
     <Description>Basic range example with no style attribute</Description>
     <InputDescriptor>RGB</InputDescriptor>
     <OutputDescriptor>RGB</OutputDescriptor>

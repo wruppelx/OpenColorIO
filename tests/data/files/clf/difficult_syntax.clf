@@ -5,7 +5,9 @@
 
 
 <!-- Comment -->
-    <ProcessList compCLFversion="3" id="id1">
+    <ProcessList xmlns="urn:AMPAS:clf:v3.0" compCLFversion="3" id="id1">
+    <Description>This is the ProcessList description.</Description>
+    <Description>yet &apos;another&apos; &quot;valid&quot; desc</Description>
 <Info>
     <Stuff>
 This is a "difficult" but 'legal' color transform file.
@@ -29,12 +31,19 @@ third array dim value is ignored
 
     </Matrix>
 
-    <Description>This is the ProcessList description.</Description>
 
-    <LUT1D id="4ed2af07-9319-430a-b18a-43368163c808" inBitDepth="32f" outBitDepth="32f"
+    <LUT1D id="4ed2af07-9319-430a-b18a-43368163c808" 
            name='a multi-line
- name'>
+ name'
+inBitDepth="32f" outBitDepth="32f">
         <Description>the n&#8211;dash description</Description>
+    <Description>another valid 
+description 
+<!-- Comment <this is legal> -->element
+    </Description>
+
+
+    <Description>&amp; another &lt;valid&gt; desc</Description>
 		<Array dim="128 3">
 
 
@@ -168,16 +177,8 @@ only tabs used to separate next few triplets
  1.00000  0.95000  0.90000
         </Array>
 
-    <Description>another valid 
-description 
-<!-- Comment <this is legal> -->element
-    </Description>
-
-
-    <Description>&amp; another &lt;valid&gt; desc</Description>
 
     </LUT1D>
-    <Description>yet &apos;another&apos; &quot;valid&quot; desc</Description>
 </ProcessList>
 
 <!-- Comment -->
