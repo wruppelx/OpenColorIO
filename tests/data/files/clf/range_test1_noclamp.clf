@@ -4,8 +4,8 @@
     <Description>Note that the 8i bit-depth does not constrain the legal range of values</Description>
     <Range inBitDepth="8i" outBitDepth="32f" style="noClamp">
         <minInValue>-16</minInValue>
-        <maxInValue>272</maxInValue>
         <minOutValue>-0.05</minOutValue>
+        <maxInValue>272</maxInValue>
         <maxOutValue>1.05</maxOutValue>
     </Range>
 </ProcessList>

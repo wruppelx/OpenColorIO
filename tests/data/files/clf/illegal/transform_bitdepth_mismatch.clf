@@ -1,4 +1,4 @@
-<ProcessList id="1d399a07-1936-49b8-9225-e6824790358c" compCLFversion="3.0">
+<ProcessList xmlns="urn:AMPAS:clf:v3.0" id="1d399a07-1936-49b8-9225-e6824790358c" compCLFversion="3.0">
     <Description>All bit-depths in a file must match at adjacent ops</Description>
     <Matrix inBitDepth="32f" outBitDepth="16f">
         <Array dim="3 3 3">

@@ -6,8 +6,8 @@
     <Range inBitDepth="16i" outBitDepth="16i">
         <Description>Note that when style is missing, the default is to clamp.</Description>
         <minInValue>16320</minInValue>
-        <maxInValue>32640</maxInValue>
         <minOutValue>16320</minOutValue>
+        <maxInValue>32640</maxInValue>
         <maxOutValue>32640</maxOutValue>
     </Range>
 </ProcessList>
